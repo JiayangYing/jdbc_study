@@ -1,3 +1,25 @@
-# jdbc_study
-1:Study how to use java to interact with DBMS (Mysql) 
-2:Designed a simple customer management system.
+# How To Run
+
+Create Virtual Environment:
+
+``python3 -m venv .venv``
+
+Activate Environment
+
+``. .venv/bin/activate``
+
+Install Requirements
+
+``pip install -r requirements.txt``
+
+Setup Database
+
+``flask db upgrade``
+
+Manually fetch the weather data of the past 3 days from the BOM
+
+``python manually_fetch_data.py``
+
+Run Server
+
+``flask run``
